@@ -260,20 +260,23 @@
 #     print("wrong username")
 
 
+# try:
+#     num1=int(input("enter the first number"))
+#     num2=int(input("enter the second number"))
+#     operation=input("what operation do you want to do")
+#     if operation=="add":
+#         print(num1+num2)
+#     elif operation== "minus":
+#         print(num1-num2)
+#     elif operation=="division":
+#         print(num1/num2)
+#     elif operation=="multiplication":
+#         print(num1*num2)   
+#     else:
+#         print("invalid operation")
+# except ZeroDivisionError:
+#     print("can't divide by zero")        
 
-# num1=int(input("enter the first number"))
-# num2=int(input("enter the second number"))
-# operation=input("what operation do you want to do")
-# if operation=="add":
-#     print(num1+num2)
-# elif operation== "minus":
-#     print(num1-num2)
-# elif operation=="division":
-#     print(num1/num2)
-# elif operation=="multiplication":
-#     print(num1*num2)   
-# else:
-#     print("invalid operation")    
 
 # boy = int(input("enter the boy's age :- "))
 # girl = int(input("enter the girl's age :- "))
@@ -283,14 +286,31 @@
 # else:
 #     print("Not eligible")
     
-boy = int(input("enter the boy's age :- "))
-girl = int(input("enter the girl's age :- "))
+# boy = int(input("enter the boy's age :- "))
+# girl = int(input("enter the girl's age :- "))
 
-if boy>=18 or girl >=18:
-    print("eligible")
-else:
-    print("Not eligible")
+# if boy>=18 or girl >=18:
+#     print("eligible")
+# else:
+#     print("Not eligible")
     
+
+try:
+    n1=int(input("enter the 1st number :-"))
+    op = input("+,-,/,*")
+    n2=int(input("enter the 2nd number :- "))
+    if op == "+":
+        print(n1+n2)
+    elif op == "-":
+        print(n1-n2)  
+    elif op == "/":
+        print("n1/n2")    
+    elif op == "*":
+        print(n1*n2)  
+    else:
+        print("invalid operation")   
+except ZeroDivisionError:
+    print("can't divide by zero")           
 
 
     
