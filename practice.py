@@ -261,19 +261,35 @@
 
 
 
-num1=int(input("enter the first number"))
-num2=int(input("enter the second number"))
-operation=input("what operation do you want to do")
-if operation=="add":
-    print(num1+num2)
-elif operation== "minus":
-    print(num1-num2)
-elif operation=="division":
-    print(num1/num2)
-elif operation=="multiplication":
-    print(num1*num2)   
+# num1=int(input("enter the first number"))
+# num2=int(input("enter the second number"))
+# operation=input("what operation do you want to do")
+# if operation=="add":
+#     print(num1+num2)
+# elif operation== "minus":
+#     print(num1-num2)
+# elif operation=="division":
+#     print(num1/num2)
+# elif operation=="multiplication":
+#     print(num1*num2)   
+# else:
+#     print("invalid operation")    
+
+# boy = int(input("enter the boy's age :- "))
+# girl = int(input("enter the girl's age :- "))
+
+# if boy>=18 and girl >=18:
+#     print("eligible")
+# else:
+#     print("Not eligible")
+    
+boy = int(input("enter the boy's age :- "))
+girl = int(input("enter the girl's age :- "))
+
+if boy>=18 or girl >=18:
+    print("eligible")
 else:
-    print("invalid operation")    
+    print("Not eligible")
     
 
 
