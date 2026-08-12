@@ -296,9 +296,9 @@
     
 
 try:
-    n1=int(input("enter the 1st number :-"))
-    op = input("+,-,/,*")
-    n2=int(input("enter the 2nd number :- "))
+    n1=int(input("enter the 1st number :-  "))
+    op = input("+,-,/,*  :- ")
+    n2=int(input("enter the 2nd number :-   "))
     if op == "+":
         print(n1+n2)
     elif op == "-":
