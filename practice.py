@@ -295,23 +295,46 @@
 #     print("Not eligible")
     
 
-try:
-    n1=int(input("enter the 1st number :-  "))
-    op = input("+,-,/,*  :- ")
-    n2=int(input("enter the 2nd number :-   "))
-    if op == "+":
-        print(n1+n2)
-    elif op == "-":
-        print(n1-n2)  
-    elif op == "/":
-        print("n1/n2")    
-    elif op == "*":
-        print(n1*n2)  
-    else:
-        print("invalid operation")   
-except ZeroDivisionError:
-    print("can't divide by zero")           
+# try:
+#     n1=int(input("enter the 1st number :-  "))
+#     op = input("+,-,/,*  :- ")
+#     n2=int(input("enter the 2nd number :-   "))
+#     if op == "+":
+#         print(n1+n2)
+#     elif op == "-":
+#         print(n1-n2)  
+#     elif op == "/":
+#         print("n1/n2")    
+#     elif op == "*":
+#         print(n1*n2)  
+#     else:
+#         print("invalid operation")   
+# except ZeroDivisionError:
+#     print("can't divide by zero")           
 
+
+# for i in range(1,21,2):
+#     print(i)
+# for i in range(2,21,2):
+#     print(i)
+
+# table = int(input("enter the number for table :- "))
+# for i in range(1,11):
+#     x=table*i
+#     print(table,"x",i,"=",x)
+
+
+
+
+# res = int(input("Enter the number :- "))
+# for i in range(1,11):
+#     num=res*i
+#     print(res,"x",i,"=",num)
+
+
+
+for i in range(0,101,2):
+    print(i)
 
     
     
