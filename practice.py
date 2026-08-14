@@ -333,8 +333,46 @@
 
 
 
-for i in range(0,101,2):
-    print(i)
+# for i in range(1):
+#     print("i am arsalan")
+
+# for i in range(2,21):
+#     if i%2==0:
+#         print(i)
+
+
+
+# for i in range(21):
+#     if i ==3:
+#         break
+#     print(i)
+
+
+
+
+# for i in range(21):
+#     if i ==11:
+#         continue
+#     print(i) 
+
+
+
+
+for i in range(20):
+    if i%2 == 0:
+        print(i,"is even")
+    else:
+        print(i,"is odd")
+
+
+
+
+
+
+
+
+
+
 
     
     
