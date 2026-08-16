@@ -358,11 +358,11 @@
 
 
 
-for i in range(20):
-    if i%2 == 0:
-        print(i,"is even")
-    else:
-        print(i,"is odd")
+# for i in range(20):
+#     if i%2 == 0:
+#         print(i,"is even")
+#     else:
+#         print(i,"is odd")
 
 
 
@@ -370,9 +370,195 @@ for i in range(20):
 
 
 
+# name="arsalan"
+# age=23
+# height=173.2
+# is_student=True
+# city="srinagar"
+# print(name,age,height,is_student,city)
+
+
+
+# i=25
+# j=25.5
+# print(type(j))
+# print(type(True))
+
+
+
+# num="100"
+# num=int(num)
+# print(type(num))
 
 
 
 
+# fruits = ["Apple", "Mango", "Banana", "Grapes", "Pear"]
+# print(fruits[0])
+# print(fruits[-1])
+# print(fruits[2])
+# fruits[2]="Orange"
+# fruits.append("kiwi")
+# fruits.insert(1,"cherry")
+# fruits.remove("Mango")
+# fruits.pop()
+# print(fruits)
+
+
+# marks = (90, 85, 78, 90, 95, 90)
+# print(marks[0])
+# print(marks[-1])
+# print(marks.count(90))
+# print(marks.index(78))
+
+
+# numbers = {1, 2, 2, 3, 3, 4}
+# print(numbers)
+
+# fruits = {"Apple", "Mango", "Banana"}
+# # add() to add "Orange"
+# fruits.add("orange")
+
+
+# # update() to add "Kiwi" and "Cherry"
+# fruits.update(["kiwi"],["cherry"])
+# # remove() to remove "Apple"
+# fruits.remove("Apple")
+# # discard() to remove "Mango"
+# fruits.discard("Mango")
+
+# print(fruits)
+
+
+
+# student = {
+#     "Name": "Arsalan",
+#     "Age": 23,
+#     "City": "Srinagar"
+# }
+# print(student["Name"])
+# print(student["Age"])
+# student["course"]="Data Science"
+# student["Age"]=24
+# del student["City"]
+# student.update({"country":"india"})
+# print(student.keys())
+# print(student.values())
+# print(student.items())
+# student.pop("Age")
+# print(student)
+
+
+
+
+# lt = [
+#     ["Arsalan", "Wasiq", "Ayat"],
+#     [10, 20, 30],
+#     [True, False, True]
+# ]
+# Arsalan
+# Ayat
+# 20
+# False
+
+# print(lt[0][0])
+# print(lt[0][2])
+# print(lt[1][1])
+# print(lt[2][1])
+# lt[0].append("Ayan")
+# lt[1].pop()
+# lt[0][1]="umer"
+# print(lt)
+
+
+# Name
+#  ├── FirstName → Ubaid
+#  └── LastName → Khan
+
+# Address
+#  ├── State → Kashmir
+#  └── Pincode → 190001
+
+
+# student={
+#  "name":{
+#   "firstname":"ubaid"
+#   "lastname":"khan"
+#   },
+#   "address":{
+#   "state":"kashmir"
+#   "pincode":"192121"
+#     }
+# }
+
+
+
+# student = {
+#     "name":{
+#         "firstname":"ubaid",
+#         "lastname":"khan"
+#     },
+#     "Address":{
+#         "state":"kashmir",
+#         "pincode":192121
+#     }
+# }
+# print(student["name"]["firstname"])
+# student["name"]["firstname"]="ayat"
+# print(student)
+# student["Address"]["state"]="srinagar"
+# print(student["Address"]["state"])
+# student["occupation"]={
+#     "designation":"data analyst",
+#     "salary":50000
+# }
+# print(student)
+
+
+# fruits = ["Apple", "Mango", "Banana", "Grapes", "Pear"]
+ 
     
+# for i in fruits:
+#     if i=="Banana":
+#         continue
+#     print(i)
+
+# for i in fruits:
+#     if i=="Banana":
+#         break
+#     print(i)
+
+
+
+students = {
+    "1": {
+        "Name": {
+            "FirstName": "Ubaid",
+            "LastName": "Khan"
+        },
+        "Address": {
+            "State": "Kashmir",
+            "Pincode": 190001
+        }
+    },
+
+    "2": {
+        "Name": {
+            "FirstName": "Imaad",
+            "LastName": "Bhat"
+        },
+        "Address": {
+            "State": "Kupwara",
+            "Pincode": 192121
+        }
+    }
+}
+
+
+
+for i in students:
+    if i=="FirstName":
+        break
+    print(students)
+        
     
