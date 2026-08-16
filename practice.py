@@ -556,9 +556,28 @@ students = {
 
 
 
-for i in students:
-    if i=="FirstName":
-        break
-    print(students)
-        
+# for i in students:
+#     if i=="FirstName":
+#         break
+#     print(students)
+    
+
+for student in students.values():
+    print(student["Name"]["FirstName"])
+# students["1"]["Address"].pop("Pincode")
+del students["1"]["Address"]["Pincode"] 
+students["2"]["Address"]["State"]="srinagar"
+print(students)              
+
+
+
+
+for student in students.values():
+    print(student["Name"]['FirstName'])
+
+
+for id,student in students.items():
+    if student =="2":
+        continue
+    print(student)    
     
