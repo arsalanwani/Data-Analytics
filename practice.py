@@ -530,29 +530,29 @@
 
 
 
-students = {
-    "1": {
-        "Name": {
-            "FirstName": "Ubaid",
-            "LastName": "Khan"
-        },
-        "Address": {
-            "State": "Kashmir",
-            "Pincode": 190001
-        }
-    },
+# students = {
+#     "1": {
+#         "Name": {
+#             "FirstName": "Ubaid",
+#             "LastName": "Khan"
+#         },
+#         "Address": {
+#             "State": "Kashmir",
+#             "Pincode": 190001
+#         }
+#     },
 
-    "2": {
-        "Name": {
-            "FirstName": "Imaad",
-            "LastName": "Bhat"
-        },
-        "Address": {
-            "State": "Kupwara",
-            "Pincode": 192121
-        }
-    }
-}
+#     "2": {
+#         "Name": {
+#             "FirstName": "Imaad",
+#             "LastName": "Bhat"
+#         },
+#         "Address": {
+#             "State": "Kupwara",
+#             "Pincode": 192121
+#         }
+#     }
+# }
 
 
 
@@ -562,22 +562,259 @@ students = {
 #     print(students)
     
 
-for student in students.values():
-    print(student["Name"]["FirstName"])
-# students["1"]["Address"].pop("Pincode")
-del students["1"]["Address"]["Pincode"] 
-students["2"]["Address"]["State"]="srinagar"
-print(students)              
+# for student in students.values():
+#     print(student["Name"]["FirstName"])
+# # students["1"]["Address"].pop("Pincode")
+# del students["1"]["Address"]["Pincode"] 
+# students["2"]["Address"]["State"]="srinagar"
+# print(students)              
 
 
 
 
-for student in students.values():
-    print(student["Name"]['FirstName'])
+# for student in students.values():
+#     print(student["Name"]['FirstName'])
 
 
-for id,student in students.items():
-    if student =="2":
-        continue
-    print(student)    
+# for id,student in students.items():
+#     if student =="2":
+#         continue
+#     print(student)    
     
+
+
+
+
+
+
+
+
+# fruits = ["Apple", "Mango", "Banana", "Grapes", "Pear"]
+# for fruit in fruits:
+#     print(fruit)
+
+
+# name = "Arsalan"  
+# for i in name:
+#     print(i)  
+
+
+
+
+
+# for i in range(10,41,10):
+#     print(i)
+
+
+# fruits = ["Apple", "Mango", "Banana"]
+# for fruit in fruits:
+#     print("I like",fruit)
+
+
+# numbers = [10, 20, 30]
+
+# for number in numbers:
+#     print(number,type(number))
+
+# students = {
+#     "Name": "Arsalan",
+#     "Age": 23,
+#     "City": "Srinagar"
+# }
+
+# for student in students:
+#     print(student)
+# for student in students.values():
+#     print(student)
+# for student,stu in students.items():
+#     print(student,":",stu)    
+
+
+# students = {
+#     "1": "Ubaid",
+#     "2": "Imaad",
+#     "3": "Ayat"
+# }
+
+# for student in students.values():
+#     print(student)
+
+# for student,stu in students.items():
+#     print(student,stu)    
+
+
+
+
+# numbers = [1, 2, 3, 4, 5]
+
+
+# for number in numbers:
+#     if number == 3:
+#         break
+#     print(number)
+
+
+# fruits = ["Apple", "Mango", "Banana", "Grapes"]
+# for fruit in fruits:
+#     if fruit =="Banana":
+#         break
+#     print(fruit)
+
+
+
+# names = ["Ali", "Wasiq", "Arsalan", "Ayat"]    
+# for name in names:
+#     if "Arsalan" == name:
+#         print("found")
+#         break
+
+# numbers = [10, 20, 30, 40, 50]
+
+# for number in numbers:
+#     print(number)
+
+#     if number == 30:
+#         break
+
+
+
+# numbers = [10, 20, 30, 40, 50]
+# for number in numbers:
+#     if number == 30:
+#         continue
+#     print(number)
+
+# fruits = ["Apple", "Mango", "Banana", "Grapes"]
+# for fruit in fruits:
+#     if fruit =="Mango":
+#         continue
+#     print(fruit)
+# names = ["Ubaid", "Imaad", "Arsalan", "Ayat"]    
+# for name in names:
+#     if name =="Arsalan":
+#         continue
+#     print(name)
+
+# numbers = [1, 2, 3, 4, 5]
+
+# for number in numbers:
+#     if number == 3:
+#         continue
+#     print(number)
+
+
+# fruits = ["Apple", "Mango", "Banana", "Grapes", "Pear"]
+# for fruit in fruits:
+#     print(fruit)
+#     if fruit =="Banana":
+#         break
+# numbers = [10, 20, 30, 40, 50, 60]
+# for i in numbers:
+#     if i ==30:
+#         continue
+#     elif i == 50:
+#         break
+#     print(i)
+
+
+
+# names = ["Ubaid", "Imaad", "Ayat", "Arsalan", "Wasiq"]
+
+
+# for name in names:
+#     if name == "Imaad":
+#         continue
+#     elif name == "Arsalan":
+#         break
+#     print(name)
+
+
+# student = {
+#     "Name": "Arsalan",
+#     "Age": 23,
+#     "City": "Srinagar",
+#     "Course": "Data Science"
+# }
+
+
+# for stu,stud in student.items():
+#     if stu == "Age":
+#         continue
+#     print(stu,stud)
+
+
+
+
+
+
+
+students={
+    "1":{
+        "Name":{
+            "FirstName":"Ubaid",
+            "LastName":"Khan"
+        },
+        "Address":{
+            "state":"Kashmir",
+            "Pincode":192121
+        }
+    },
+
+    "2":{
+        "Name":{
+            "FirstName":"Imaad",
+            "LastName":"Bhat"
+        },
+        "Address":{
+            "state":"kupwara",
+            "Pincode":190001
+        }
+    },
+
+    "3":{
+        "Name":{
+            "FirstName":"Ayat",
+            "LastName":"wani"
+        },
+        "Address":{
+            "state":"srinagar",
+            "pincode":190002
+        }
+    }
+}    
+
+
+
+# for id,student in students.items():
+    # if id == "2":
+    #     continue
+    # if id =="3":
+    #     break
+#     print(student["Name"]["FirstName"])
+# for id,student in students.items():
+#     print(student["Name"]["FirstName"])
+
+
+# for student in students:
+#     if student == "2":
+#         continue
+#     print(student)
+
+
+
+# for student in students:
+#     if student == "3":
+#         break
+#     print(student)
+
+
+
+
+
+for key,value in students.items():
+    if key == "2":
+        continue
+    elif key =="3":
+        break
+    print(value["Name"]["FirstName"])
+

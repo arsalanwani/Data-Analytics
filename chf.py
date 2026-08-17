@@ -1,0 +1,34 @@
+student={
+    "1":{
+        "Name":{
+            "FirstName":"Ubaid",
+            "LastName":"Khan"
+        },
+        "Address":{
+            "state":"Kashmir",
+            "Pincode":192121
+        }
+    }
+},
+
+    "2":{
+        "Name":{
+            "FirstName":"Imaad",
+            "LastName":"Bhat"
+        },
+        "Address":{
+            "state":"kupwara"
+            "Pincode":190001
+        }
+    },
+
+    "3":{
+        "Name":{
+            "FirstName":"Ayat",
+            "LastName":"wani"
+        },
+        "Address":{
+            "state":"srinagar",
+            "pincode":190002
+        }
+    }
