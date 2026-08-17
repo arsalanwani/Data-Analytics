@@ -811,10 +811,49 @@ students={
 
 
 
-for key,value in students.items():
-    if key == "2":
-        continue
-    elif key =="3":
-        break
-    print(value["Name"]["FirstName"])
+# for key,value in students.items():
+#     if key == "2":
+#         continue
+#     elif key =="3":
+#         break
+#     print(value["Name"]["FirstName"])
+
+
+
+
+
+# num = int(input("enter any number:- "))
+# for i in range(2,num):
+#     if num%i==0:
+#         print("not prime")
+#         break
+# else:
+#     print("prime") 
+
+
+
+# x=int(input("enter any number:- "))
+# if x<=1:
+#     print("not prime")
+# else:
+#     for i in range(2,x):
+#         if x%i ==0:
+#             print("not prime")
+#             break
+#     else:
+#         print("prime")    
+
+
+# lt =[23,34,45,56,67,78,89]
+# x = int(input("enter any number"))
+# flag =0
+# for num in lt:
+#     if x == num:
+#         flag=1
+# if flag ==1:
+#     print(x,"is in a list")  
+# else:
+#     print(x,"not in a list")      
+
+
 
