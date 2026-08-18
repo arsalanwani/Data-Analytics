@@ -853,7 +853,73 @@ students={
 # if flag ==1:
 #     print(x,"is in a list")  
 # else:
-#     print(x,"not in a list")      
+#     print(x,"not in a list")   
+# 
+# 
+# 
+# 
+# 
+# 
+# x=int(input("enter any number :- "))
+# if x<=1:
+#     print("not prime")
+# else:
+#     for i in range(2,x):
+#         if x%i ==0:
+#             print("not prime")
+#             break
+#     else:
+#             print("prime")
+           
+
+
+# lt =[23,34,45,56,67,78,89,90,01.12]
+# x=int(input("enter any number :-"))
+# flag =0
+# for num in lt:
+#     if num ==x:
+#         flag=1
+# if flag ==1:
+#     print(x,"is in a list")
+# else:
+#     print(x,"is not in a list")
+
+# numbers = [12, 25, 37, 48, 59, 64, 75]
+# x = int(input("enter any number  :- "))
+# flag =0
+# for num in numbers:
+#     if num ==x:
+#         flag =1
+# if flag == 1:
+#     print("number found")
+# else:
+#     print("number not found")
 
 
 
+# names = ["Ali", "Wasiq", "Imaad", "Arsalan", "Ayat"]
+# x= input("enter any name:-")
+# flag =0
+# for name in names:
+#     if x==name:
+#         flag =1
+#         break
+# if flag ==1:
+#     print(x,"is in a list")
+# else:
+#     print(x,"is not in a list")
+
+
+# numbers = [10, 20, 30, 40, 50, 60]
+# for i in numbers:
+#     if i == 30:
+#         continue
+#     elif i == 50:
+#         break
+#     print(i)
+
+numbers = [11, 12, 13, 14, 15, 16, 17, 18]
+for i in numbers:
+    if i%2==0:
+        continue
+    print(i)
