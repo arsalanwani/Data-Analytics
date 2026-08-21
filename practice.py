@@ -918,8 +918,121 @@ students={
 #         break
 #     print(i)
 
-numbers = [11, 12, 13, 14, 15, 16, 17, 18]
-for i in numbers:
-    if i%2==0:
-        continue
-    print(i)
+# numbers = [11, 12, 13, 14, 15, 16, 17, 18]
+# for i in numbers:
+#     if i%2==0:
+#         continue
+#     print(i)
+
+
+
+# word=input("enter a word:-")
+# rev=""
+# for ch in word:
+#     # rev=ch+rev
+#     rev=ch+rev
+# if word==rev:
+#     print(word,"is palindrome")
+# else:
+#     print(word,"is not palindrome")
+
+
+
+    
+
+
+
+
+
+
+# x=input("enter a word:-  ")
+# st=''
+# for ch in x:
+#     st=ch+st
+# if x==st:
+#     print(x,"is palindrome")
+# else:
+#     print(x,"is not palindrome")
+
+
+
+# Write a Python program that takes a word from the user and counts how many times each character appears in the word.
+
+
+# user=input("enter a word:-")
+# x={}
+# for i in user:
+#     if i in x:
+#         x[i]=x[i]+1
+#     else:
+#         x[i]=1
+# print(x)
+
+
+# word=input("Enter the senstence:-")
+# word.split()
+# print(len(word.split()))
+
+
+# lt=[12,23,34,45,67,78,89,90]
+# lt.sort(reverse=True)
+# print(lt[4])
+
+
+
+# i=0
+# while i <=30:
+#     i=int(input("enter any number:- "))
+#     print(i)
+
+
+# i=int(input("number"))
+# while True:
+#     if i%2==0:
+#         print("even")
+#     else:
+#         print("odd")
+ 
+try:
+    lt =[12,34,56]
+    print(lt[3])
+except IndexError:
+    print("index isn't in the list")
+
+
+try:
+    print(arsalan)
+except NameError:
+    print("arsalan is not defined")
+
+try:
+    dt={
+        "name":"arsalan"
+    }
+    print(dt["email"])
+except KeyError:
+    print("key not found")
+
+
+try:
+    name="arsalan"
+    name.append(20)
+    print(name)
+except AttributeError:
+    print("cannot use this method")    
+
+
+try:
+    a=10  
+    n=a/0
+    print(n)
+except ZeroDivisionError:
+    print("can't divide by zero")
+
+
+try:
+    age=int("hello")
+    print("age")
+except ValueError:
+    print("value error")
+
