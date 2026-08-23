@@ -986,53 +986,93 @@ students={
 #     print(i)
 
 
-# i=int(input("number"))
+# i=int(input("number :- "))
 # while True:
 #     if i%2==0:
 #         print("even")
+#         break
 #     else:
 #         print("odd")
+#         break
+        
  
-try:
-    lt =[12,34,56]
-    print(lt[3])
-except IndexError:
-    print("index isn't in the list")
+# try:
+#     lt =[12,34,56]
+#     print(lt[3])
+# except IndexError:
+#     print("index isn't in the list")
 
 
-try:
-    print(arsalan)
-except NameError:
-    print("arsalan is not defined")
+# try:
+#     print(arsalan)
+# except NameError:
+#     print("arsalan is not defined")
 
-try:
-    dt={
-        "name":"arsalan"
-    }
-    print(dt["email"])
-except KeyError:
-    print("key not found")
-
-
-try:
-    name="arsalan"
-    name.append(20)
-    print(name)
-except AttributeError:
-    print("cannot use this method")    
+# try:
+#     dt={
+#         "name":"arsalan"
+#     }
+#     print(dt["email"])
+# except KeyError:
+#     print("key not found")
 
 
-try:
-    a=10  
-    n=a/0
-    print(n)
-except ZeroDivisionError:
-    print("can't divide by zero")
+# try:
+#     name="arsalan"
+#     name.append(20)
+#     print(name)
+# except AttributeError:
+#     print("cannot use this method")    
 
 
-try:
-    age=int("hello")
-    print("age")
-except ValueError:
-    print("value error")
+# try:
+#     a=10  
+#     n=a/0
+#     print(n)
+# except ZeroDivisionError:
+#     print("can't divide by zero")
 
+
+# try:
+#     age=int("hello")
+#     print("age")
+# except ValueError:
+#     print("value error")
+
+
+
+# i=1
+# while i<=5:
+#     print(i)
+#     i+=1
+
+
+
+# i=5
+# while i<=5:
+#     if i==0:
+#         break
+#     print(i)
+#     i=i-1
+
+
+
+# i=2
+# while  i%2==0:
+#     if i >20:
+#         break
+#     print(i)
+#     i= i+2
+
+# u=1
+# i=int(input("enter the number :- "))
+# while u<=i:
+#     print(u)
+#     u=u+1
+
+while True:
+    i=int(input("enter a number ;- "))
+    if i == 0:
+        break
+    print("you entered",i)
+    
