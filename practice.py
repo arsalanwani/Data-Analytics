@@ -1070,9 +1070,65 @@ students={
 #     print(u)
 #     u=u+1
 
+# while True:
+#     i=int(input("enter a number ;- "))
+#     if i == 0:
+#         break
+#     print("you entered",i)
+
+
+
+# while True:
+#     i=int(input("Enter the Number:-"))
+#     if i==0:
+#         break
+#     if i%2==0:
+#         print("even")
+#     else:
+#         print("odd")
+   
+# i=1 
+# while i<=10:
+#     if i == 5:
+#         i=i+1
+#         continue
+#     print(i)
+#     i=i+1
+
+
+# numbers = [10, 20, 30, 40, 50]
+# flag=0
+# i=int(input("Enter the Number"))
+# if i in numbers:
+#     flag=1
+# else:
+#     print(i,"is not in the list")
+# if flag ==1:
+#     print(i,"is in the list")
+
+
+
+# total = 0
+
+# while True:
+#     i = int(input("Enter the number: "))
+
+#     if i == 0:
+#         break
+
+#     total = total + i
+
+# print("Total =", total)
+
+
 while True:
-    i=int(input("enter a number ;- "))
-    if i == 0:
+    x=int(input("enter the number :- "))
+    if x==0:
         break
-    print("you entered",i)
-    
+    elif x < 0:
+        continue
+    # if x%2 ==0:
+    #     print("even")
+    # else:
+    #     print("odd")
+    print("even" if x%2==0 else "odd")
