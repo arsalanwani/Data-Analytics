@@ -1183,12 +1183,31 @@ students={
 # b=int(input("enter any number:-"))
 # greater(a,b)
 
-def calculator(a,b,operator):
-    if operator == "+":
-        print(a+b)
-    elif operator =="*":
-        print(a*b)
-    elif operator=="-":
-         print(a-b)
-       
-calculator(10,20,"-")
+# def calculator(a,b,operator):
+#     if operator == "+":
+#         print(a+b)
+#     elif operator =="*":
+#         print(a*b)
+#     elif operator=="-":
+#          print(a-b)
+
+# calculator(10,20,"-")
+
+
+lt=[2,3,4,5]
+sq=list(map(lambda x:x*x,lt))
+print(sq)
+print(type(sq))
+
+
+
+add=lambda x,y:x+y
+print(add(10,20))
+
+
+even_odd=lambda x:"even" if x%2==0 else "odd"
+print(even_odd(2))
+
+lt=["1","2","3","4","5"]
+sq=list(map(int,lt))
+print(sq)
