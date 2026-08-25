@@ -1,3 +1,4 @@
+
 # list stores multiple values in a single  variable its heterogenous(takes different data types in a list),it is ordered 
 # indexing is a numerical location of an item in a list.
 # it is mutable.
@@ -1121,14 +1122,73 @@ students={
 # print("Total =", total)
 
 
-while True:
-    x=int(input("enter the number :- "))
-    if x==0:
-        break
-    elif x < 0:
-        continue
-    # if x%2 ==0:
-    #     print("even")
-    # else:
-    #     print("odd")
-    print("even" if x%2==0 else "odd")
+# while True:
+#     x=int(input("enter the number :- "))
+#     if x==0:
+#         break
+#     elif x < 0:
+#         continue
+#     # if x%2 ==0:
+#     #     print("even")
+#     # else:
+#     #     print("odd")
+#     print("even" if x%2==0 else "odd")
+
+# from practice2 import even_odd
+
+# x=int(input("enter a number"))
+# even_odd(x)
+
+# def hello():
+#     print("hello")
+# hello()
+# def greet(name):
+#     print("Hello",name)
+# greet("arsalan")
+
+
+
+# def square(x):
+#     print(x*x)
+# x=int(input("enter any number:-"))
+# square(x)
+
+# def sum(a,b):
+#     print(a+b)
+# sum(10,20)
+# sum(5,7)
+
+# def mul(a,b):
+#     print(a*b)
+# mul(2,7)
+# mul(3,8)
+
+
+# def check_number(x):
+#     if x>0:
+#         print("positive")
+#     else:
+#         print("negative")
+# # x=int(input("enter any number:-"))
+# check_number(10)
+# check_number(-5)
+
+
+# def greater(a,b):
+#     if a>b:
+#         print(a,"is greater")
+#     else:
+#         print(b,"is greater")
+# a=int(input("enter any number:-"))
+# b=int(input("enter any number:-"))
+# greater(a,b)
+
+def calculator(a,b,operator):
+    if operator == "+":
+        print(a+b)
+    elif operator =="*":
+        print(a*b)
+    elif operator=="-":
+         print(a-b)
+       
+calculator(10,20,"-")
