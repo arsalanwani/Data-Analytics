@@ -1194,20 +1194,38 @@ students={
 # calculator(10,20,"-")
 
 
-lt=[2,3,4,5]
-sq=list(map(lambda x:x*x,lt))
-print(sq)
-print(type(sq))
+# lt=[2,3,4,5]
+# sq=list(map(lambda x:x*x,lt))
+# print(sq)
+# print(type(sq))
 
 
 
-add=lambda x,y:x+y
-print(add(10,20))
+# add=lambda x,y:x+y
+# print(add(10,20))
 
 
-even_odd=lambda x:"even" if x%2==0 else "odd"
-print(even_odd(2))
+# even_odd=lambda x:"even" if x%2==0 else "odd"
+# print(even_odd(2))
 
-lt=["1","2","3","4","5"]
-sq=list(map(int,lt))
-print(sq)
+# lt=["1","2","3","4","5"]
+# sq=list(map(int,lt))
+# print(sq)
+
+ 
+# names=["ARSALAN","ATHAR","WASIQ","EESHAAN","MUZZAMIL"]
+# name=list(map(lambda x:x.lower(),names))
+# print(name)
+
+# sq=['arsalan', 'athar', 'wasiq', 'eeshaan', 'muzzamil']
+# sqq=list(map(lambda x:x.upper(),sq))
+# print(sq)
+
+q=['arsalan', 'athar', 'wasiq', 'eeshaan', 'muzzamil']
+n=list(map(str.capitalize,q))
+print(n)
+
+
+listt=[1,2,3,4,5,-3,-4,-5,-6,-7]
+n=list(filter(lambda x:x<0,listt))
+print(n)
