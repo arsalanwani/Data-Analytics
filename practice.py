@@ -1229,22 +1229,45 @@ students={
 # listt=[1,2,3,4,5,-3,-4,-5,-6,-7]
 # n=list(filter(lambda x:x<0,listt))
 # print(n)
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-sq=list(filter(lambda x:x%2==0,numbers))
-print(sq)
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# sq=list(filter(lambda x:x%2==0,numbers))
+# print(sq)
 
-numbers = [-5, 3, -2, 8, -1, 10, -7, 4]
-sq=list(filter(lambda x:x>0,numbers))
-print(sq)
+# numbers = [-5, 3, -2, 8, -1, 10, -7, 4]
+# sq=list(filter(lambda x:x>0,numbers))
+# print(sq)
 
-numbers = [2, 7, 4, 9, 1, 6, 3, 10]
-sq=list(filter(lambda x:x>5,numbers))
-print(sq)
+# numbers = [2, 7, 4, 9, 1, 6, 3, 10]
+# sq=list(filter(lambda x:x>5,numbers))
+# print(sq)
 
-words = ["cat", "apple", "dog", "banana", "sun", "mango"]
-sq=list(filter(lambda x:len(x)>4,words))
-print(sq)
+# words = ["cat", "apple", "dog", "banana", "sun", "mango"]
+# sq=list(filter(lambda x:len(x)>4,words))
+# print(sq)
 
-numbers = [3, 7, 9, 12, 14, 15, 20, 21, 25]
-sq=list(filter(lambda x:x%3==0,numbers))
-print(sq)
+# numbers = [3, 7, 9, 12, 14, 15, 20, 21, 25]
+# sq=list(filter(lambda x:x%3==0,numbers))
+# print(sq)
+
+
+# file=open('file.txt','w')
+# file.write('i am arsalan')
+# file.close()
+
+
+# file=open('file.txt','r')
+# f=file.read()
+# print(f)
+
+
+
+# file=open('file.txt','a')
+# file.write(' i am data analyst')
+# file.close()
+
+
+# file=open('file.txt','x')
+# file.write()
+# file.close()
+
+
