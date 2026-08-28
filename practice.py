@@ -1270,4 +1270,18 @@ students={
 # file.write()
 # file.close()
 
+# f = open('fil.txt','x')
+# f.close()
 
+
+# files=open(r'C:\Users\Arsalan Wani\OneDrive\Desktop\sick\arsii.txt','w')
+# files.write("hello")
+# files.close()
+
+
+# with open('arsii.txt','w') as f:
+#     f.write("60053737")
+
+file = open('ayan.txt','x')
+file.write("dbhdshnv")
+file.close()
