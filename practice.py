@@ -1282,6 +1282,114 @@ students={
 # with open('arsii.txt','w') as f:
 #     f.write("60053737")
 
-file = open('ayan.txt','x')
-file.write("dbhdshnv")
-file.close()
+# file = open('ayan.txt','x')
+# file.write("dbhdshnv")
+# file.close()
+
+
+
+# i=int(input("enter a number :- "))
+# if i > 0:
+#     print("positive")
+# else:
+#     print("Negative")
+
+# i=int(input("enter any number:-"))
+# if i%2==0:
+#     print("even")
+# else:
+#     print("odd")
+
+
+# i=int(input("enter ist number :- "))
+# j=int(input("enter 2nd number :- "))
+# if i>j:
+#     print(i,"is greater")
+# else:
+#     print(j,"is greater")
+
+
+# marks=int(input("enter any number:-"))
+# if marks >= 90:
+#     print("A GRADE")
+# elif marks >=75:
+#     print("B GRADE") 
+# elif marks >=60:
+#     print("C GRADE")
+# else:
+#     print("D GRADE")
+
+
+
+# num1 = int(input("enter 1st number :- "))
+# num2=  int(input("enter 2nd number :- "))
+# operator = input("enter any operator :- ")
+# if operator == "+":
+#     print(num1+num2)
+# elif operator == "/":
+#     print(num1/num2)
+# elif operator =="*":
+#     print(num1*num2)
+# elif operator =="-":
+#     print(num1-num2)
+# elif operator =="%":
+#     print(num1%num2)
+# else:
+#     print("invalid operation")
+
+
+# fruits = ["Apple", "Mango", "Banana", "Grapes", "Pear"]
+# print(fruits[0])
+# print(fruits[2])
+# print(fruits[4])
+# fruits[2]="orange"
+# print(fruits[2])
+
+# fruits = ["Apple", "Mango", "Banana"]
+# fruits.append("kiwi")
+# print(fruits)
+# fruits.insert(1,"orange")
+# fruits.pop(2)
+# fruits.remove("Mango")
+# print(fruits)
+
+
+# numbers = (10, 20, 30, 40, 50)
+# print(numbers[0])
+# print(numbers[2])
+# print(numbers[4])
+
+
+
+# set={"Apple", "Mango", "Banana", "Apple", "Mango"}
+# print(set)
+
+# fruits = {"Apple", "Mango", "Banana"}
+# fruits.add("Grapes")
+# fruits.update(["kiwi","cherry"])
+# print(fruits)
+
+# numbers = {10, 20, 30, 40}
+# numbers.remove(20)
+# numbers.discard(100)
+# print(numbers)
+
+
+# student ={
+#     "Name":"Arsalan",
+#     "Age":24,
+#     "City":"Pulwama"
+# }
+
+# student["Age"]=23
+# student["City"]="Delhi"
+# student["Course"]="Data Analytics"
+# rv=student.pop("Age")
+# print(rv)
+student = {
+    "Name": "Arsalan",
+    "Age": 22,
+    "Course": "Data Analytics"
+}
+for key,value in student.items():
+    print(key,value)
