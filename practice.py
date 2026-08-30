@@ -1386,10 +1386,150 @@ students={
 # student["Course"]="Data Analytics"
 # rv=student.pop("Age")
 # print(rv)
-student = {
-    "Name": "Arsalan",
-    "Age": 22,
-    "Course": "Data Analytics"
-}
-for key,value in student.items():
-    print(key,value)
+# student = {
+#     "Name": "Arsalan",
+#     "Age": 22,
+#     "Course": "Data Analytics"
+# }
+# for key,value in student.items():
+#     print(key,value)
+# lt = [
+#     ["Arsalan", "Wasiq", "Ayat"],
+#     [10, 20, 30],
+#     [True, False, True]
+# ]
+# print(lt[0][1])
+# print(lt[1][1])
+# print(lt[2][1])
+
+
+# lt[0][2]="ishaan"
+# lt[1][1]=25
+# print(lt)
+
+
+# lt = [
+#     ["Ali", "Wasiq"],
+#     [10, 20]
+# ]
+# lt[0].append("Arsalan")
+# print(lt)
+
+# student = {
+#     "Name": {
+#         "FirstName": "Arsalan",
+#         "LastName": "Wani"
+#     },
+#     "Address": {
+#         "State": "Kashmir",
+#         "Pincode": 190001
+#     }
+# }
+# print(student["Name"]["FirstName"])
+# print(student["Address"]["State"])
+# print(student["Address"]["Pincode"])
+
+
+# student["Name"]["FirstName"]="Ayat"
+# del student ["Address"]["Pincode"]
+# student["Address"]["Country"]="India"
+# print(student)
+
+
+# numbers = [10, 20, 30, 40, 50]
+# for i in numbers:
+#     print(i)
+
+# numbers = [11, 12, 13, 14, 15, 16, 17, 18]
+# for i in numbers:
+#     if i%2==0:
+#         print(i)
+# numbers = [10, 20, 30, 40, 50, 60]
+# for i in numbers:
+#     if i == 30:
+#         continue
+#     print(i)
+
+
+# numbers = [10, 20, 30, 40, 50, 60]
+# for i in numbers:
+#     if i == 50:
+#         break
+#     print(i)
+
+
+# numbers = [23, 34, 45, 56, 67, 78, 89]
+# flag=0
+# h=int(input("enter a number :- "))
+# for i in numbers:
+#     if i == h:
+#         flag=1
+#         break
+
+# if flag ==1:
+#     print("exists")
+# else:
+#     print("doesnt exist")
+
+# i =1
+# while i<=5:
+#     print(i)
+#     i=i+1
+# i =5
+# while i>=1:
+#     print(i)
+#     i=i-1
+
+# while True:
+#     i=int(input("enter a numbers:-"))
+#     if i ==0:
+#         break
+#     print(i)
+
+
+# while True:
+#     i=int(input("enter a number:-"))
+#     if i==0:
+#         break
+#     elif i%2==0:
+#         print("even")
+#     else:
+#         print("odd")
+
+
+# total=0
+# while True:
+#     i= int(input("enter a number:-"))
+#     if  i ==0:
+#         break
+#     total=total+i
+# print(total)
+
+
+# def hello():
+#     print("hello")
+# for i in range(3):
+#     hello()
+
+# def square():
+#     x=int(input("enter a number:-"))
+#     x=x*x
+#     print(x)
+# square()
+
+# def even_odd(x):
+#     if x%2==0:
+#         print("even")
+#     else:
+#         print("odd")
+# x=int(input("enter a number:-"))
+# even_odd(x)
+
+# numbers = [1, 2, 3, 4, 5]
+
+# sq=list(map(lambda x:x*x,numbers))
+# print(sq)
+
+# numbers = [10, 15, 20, 25, 30, 35, 40]
+# g=list(filter(lambda x:x>20,numbers))
+# print(g)
