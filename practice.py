@@ -1533,3 +1533,24 @@ students={
 # numbers = [10, 15, 20, 25, 30, 35, 40]
 # g=list(filter(lambda x:x>20,numbers))
 # print(g)
+
+
+
+# with open("arsii.txt",'x'):
+#     print("file created")
+
+
+# with open('arsii.txt','w') as file:
+#     file.write("arsalan")
+#     file.write("\ndata analytics")
+
+
+# with open('arsii.txt','r') as file:
+#     data=file.read()
+#     print(data)
+
+# with open('arsii.txt','a') as file:
+#     file.write('\npython')
+
+import os 
+os.remove('arsii.txt')
