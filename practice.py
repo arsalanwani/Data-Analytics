@@ -1552,5 +1552,397 @@ students={
 # with open('arsii.txt','a') as file:
 #     file.write('\npython')
 
-import os 
-os.remove('arsii.txt')
+# import os 
+# os.remove('arsii.txt')
+
+
+
+# class ils:
+#     def greet(self):
+#         print("hello from ils")
+#     def bye(self,a,b):
+#         print(a+b)
+#         print("bye from ils")
+
+# i=ils()
+# i.greet()
+# i.bye(12,13)
+
+
+
+# polymorphism is same functions different behaviour
+# class animal:
+#     def bark(self):
+#         print("bow bow")
+#     def cat(self):
+#         print("meow meow")
+
+# i=animal()
+# i.bark()
+# i.cat()
+
+# # inheritance means when child class inherits parent class features
+# class animal:
+#     def bark(self):
+#         print("meow meow")
+# class animal:
+#     def cat(animal):
+#         print("meow meow")
+# i=animal()
+# i.bark()
+# i.cat()
+
+
+# class ils:
+#     def __init__(self):
+#         print("hello i am from constructor")
+#         self.__bye()
+#     def hello(self):
+#         print("Hello from ils")
+    
+#     def _ok(self):
+#         print("Hello from protected function")
+    
+#     def __bye(self):
+#         print("This is private function!")
+    
+
+# i = ils()
+# i.hello()
+# i._ok()
+
+# numbers = [12, -3, 0, 25, -7, 18, 25, 4, 0, 9, -1, 18]
+# num=list(filter(lambda x:x>0,numbers))
+# print(num)
+
+
+# numbers = [12, -3, 0, 25, -7, 18, 25, 4, 0, 9, -1, 18]
+# for num in numbers:
+#     if num <0:
+#         num.count
+#         print(num.count())
+#     else:
+#         continue
+
+
+# numbers = [4, 9, 12, 3, 15]
+# for num in numbers:
+#     if num > 10:
+#         print(num)
+#     else:
+#         continue
+
+# numbers = [4, 9, 12, 3, 15]
+# count =0
+# for n in numbers:
+#     if n >10:
+#         count = count +1
+# print(count)
+
+
+# x=int(input("enter a number :- "))
+# x2=int(input("enter a number :- "))
+# operator=input("enter an operator:- (+,-,*,/)")
+# if operator == "+":
+#     print(x+x2)
+# elif operator == "-":
+#     print(x-x2)
+# elif operator == "*":
+#     print(x*x2)
+# elif operator == "/":
+#     print(x/x2)
+# else:
+#     print("invalid operation")    
+
+
+
+# Create a list of 10 numbers and print the first, last, and middle elements.
+# num=[1,23,34,45,56,67,78,89,90,10]
+# print(num[0])
+# print(num[-1])
+# print(num[4])
+# Find the largest number in a list without using max().
+# num=[1,23,34,45,56,67,78,89,90,10]
+# largest = num[0]
+# for n in num:
+#     if n > largest:
+#         largest =n
+# print(largest)
+# Find the smallest number in a list without using min().
+# num=[1,23,34,45,56,67,78,89,90,10]
+# smallest = num[0]
+# for n in num:
+#     if n < smallest:
+#         smallest =n
+# print(smallest)
+
+# Count how many even and odd numbers are in a list.
+
+# num=[1,23,34,45,56,67,78,89,90,10]
+# even_count =0
+# odd_count=0
+# for n in num:
+#     if n % 2==0:
+#         even_count=even_count +1
+#     else:
+#         odd_count=odd_count +1
+# print("even numbers",even_count)
+# print("odd numbers",odd_count)
+# Search for a number in a list using a flag variable and break.
+# num=[1,23,34,45,56,67,78,89,90,10]
+# flag =0
+# x=int(input("enter a numbers:-"))
+# if x in num:
+#     flag =1
+# if flag ==1:
+#     print(x,"is in a list")
+# else:
+#     print(x,"is not in a list")
+
+
+# Create a tuple of numbers and find its length and maximum value.
+# tp=(1,23,45,56,67,78)
+# print(len(tp))
+# print(max(tp))
+# Convert a tuple into a list, add an element, and convert it back to a tuple.
+# tp=(1,23,45,56,67,78)
+# my_list=list(tp)
+# my_list.append(43)
+# tp=tuple(my_list)
+# print(tp)
+# # Create two sets and find their union, intersection, and difference.
+# set1 = {1, 2, 3, 4, 5}
+# set2 = {4, 5, 6, 7, 8}
+# print("union",set1.union(set2))
+# print("intersection",set1.intersection(set2))
+# print("difference",set1.difference(set2))
+# # Given a list with duplicate values, use a set to remove duplicates.
+# numbers = [10, 20, 10, 30, 20, 40, 30]
+# un=set(numbers)
+# print(un)
+# Check whether a particular element exists in a set.
+# numbers = {10, 20, 30, 40, 50}
+# x=int(input("enter a number:-"))
+# if x in numbers:
+#     print(x,"is in a set")
+# else:
+#     print(x,"is not in a set")    
+
+
+# Create a dictionary containing a student's name, age, marks, and city and print each value.
+# dt={
+#     "name":"arsalan",
+#     "age":24,
+#     "marks":100,
+#     "city":"pulwama"
+#     }
+# print(dt["name"])
+# print(dt["age"])
+# print(dt["marks"])
+# print(dt["city"])
+# Loop through a dictionary and print all keys and values.
+# dt={
+#     "name":"arsalan",
+#     "age":24,
+#     "marks":100,
+#     "city":"pulwama"
+#     }
+# for keys,values in dt.items():
+#     print(keys,values)
+# Find the student with the highest marks from:
+# students = {
+#     "Arsalan": 85,
+#     "Wasiq": 92,
+#     "Aman": 78,
+#     "Rahul": 88
+# }
+# for keys,values in students.items():
+#     print(max(students.items()))
+#     break
+# Count the frequency of each character in a word using a dictionary.
+# x=(input("enter a word:-"))
+# frequency={}
+# for ch in x:
+#     if ch in frequency:
+#         frequency[ch]=frequency[ch]+1
+#     else:
+#         frequency[ch]=1
+# print(frequency)
+
+
+# Print numbers from 1 to 50 using a for loop.
+# for i in range(1,51):
+#     print(i)
+# # # Print numbers from 1 to 20 but skip multiples of 3 using continue.
+# for i in range (1,20):
+#     if i%3==0:
+#         continue
+#     print(i)
+# # Print numbers from 1 to 100 and stop when you reach 57 using break.
+# for i in range(1,101):
+#     if i == 57:
+#         break
+#     print(i)
+# Take numbers from the user continuously using while and stop when the user enters 0.
+# while True:
+#     x=int(input("enter a number:-"))
+#     if x==0:
+        # break
+# # Take numbers from the user and keep printing whether each is even or odd until 0 is entered.
+# while True:
+#     x=int(input("enter a number:-"))
+#     if x==0:
+#         break
+#     elif x%2==0:
+#         print(x,"is even")
+#     else:
+#         print(x,"is odd")
+        
+# 1. Create a function hello() that prints "Hello Python".
+# def hello():
+#     print("Hello Python")
+# hello()
+# # 2. Create a function that prints your name.
+# def name(name="arsalan"):
+#     print("Hello",name)
+# name()
+# # 3. Create a function that prints your name and age.
+# def nage(name="Arsalan",age=24):
+#     print("my name is",name,"and my age is",age)
+# nage()
+# # 4. Create a function welcome() that prints "Welcome to Data Analytics".
+# def welcome(DA="Data Analytics"):
+#     print("welcome to",DA)
+# welcome()
+# # 5. Create a function that prints numbers from 1 to 10.
+# def numbers():
+#     for i in range(1,11):
+#         print(i)
+# numbers()
+# # 6. Create a function that prints "Even".
+# def even(x):
+#     x=int(input("enter any number:-"))
+#     if x%2==0:
+#         print("even")
+#     else:
+#         print("odd")
+# even(2)
+# # 7. Create a function that prints "Python is easy" five times.
+# def py():
+#     print("Pyhton is easy")
+# py()
+# py()
+# py()
+# py()
+# py()
+# Create a function that accepts a number and prints the number.
+# def num(x):
+#     print(x)
+# num(2)
+# 10. Create a function that accepts two numbers and prints them.
+# def num(x,y):
+#     print(x,y)
+# num(2,3)
+# 11. Create a function that accepts name and age and prints both.
+# def nage(name="Arsalan",age=24):
+#     print("my name is",name,"and my age is",age)
+# 12 Create a function that accepts city and prints it.
+# def city(city="srinagar"):
+#     print("i live in",city)
+# city()
+# 13.create a function that accepts marks and prints them.
+# def marks(x):
+#     print(x)
+# marks(100)
+# 14. Create a function that accepts a number and prints whether it is positive or negative.
+# def pos_neg(x):
+#     if x>0:
+#         print("positive")
+#     elif x==0:
+#         print("neutral")
+#     else:
+#         print("negative")
+# pos_neg(-1)
+
+# 15. Create a function that accepts a number and prints whether it is even or odd.
+# def even(x):
+#     x=int(input("enter any number:-"))
+#     if x%2==0:
+#         print("even")
+#     else:
+#         print("odd")
+# even(3)
+# 16. Function that returns a number's square.
+# def square():
+#     x=int(input("enter a number:-"))
+#     return x*x
+# result=square()
+# print(result)
+# 17. Function that returns a number's cube.
+# def cube():
+#     x=int(input("enter a number:-"))
+#     return x**3
+# result=cube()
+# print(result)
+# 18. Function that returns double of a number.
+# def double():
+#     x=int(input("enter a number:-"))
+#     return x + x
+# result=double()
+# print(result)
+# 19. Function that returns half of a number.
+# def half():
+#     x=int(input("enter a number:-"))
+#     return x/2
+# result=half()
+# print(result)
+# 20. Function that returns the sum of two numbers.
+# def sum():
+#     x=int(input("enter a number:-"))
+#     y=int(input("enter a number:-"))
+#     return x+y
+# result=sum()
+# print(result)
+# def sum(x,y):
+#     return x+y
+# result=sum(10,20)
+# print(result)
+# 21. Function that returns the difference of two numbers.
+# def minus():
+#     x=int(input("enter a number:-"))
+#     y=int(input("enter a number:-"))
+#     return x-y
+# result=minus()
+# print(result)
+# def minus(x,y):
+#     return x-y
+# result=minus(10,20)
+# print(result)
+# 22. Function that returns the product of two numbers.
+# def product():
+#     x=int(input("enter a number:-"))
+#     y=int(input("enter a number:-"))
+#     return x,y,x*y
+# x,y,result=product()
+# print("The product of",x,"and",y,"is",result)
+# 23. Function that returns the division of two numbers.
+# def division():
+#     x=int(input("enter a number:-"))
+#     y=int(input("enter a number:-"))
+#     return x/y,x,y
+# result,x,y=division()
+# print("The division of",x,"and",y,"is",result)
+# 24. Function that returns the remainder of two numbers.
+# def remainder():
+#     x=int(input("enter a number:-"))
+#     y=int(input("enter a number:-"))
+#     return x%y,x,y
+# result,x,y=remainder()
+# print("The remainder of",x,"and",y,"is",result)
+# 25. Function that returns the average of two numbers.
+# def average():
+#     x=int(input("enter a number:-"))
+#     y=int(input("enter a number:-"))
+#     return (x+y)/2,x,y
+# result,x,y=average()
+# print("The average of",x,"and",y,"is",result)
