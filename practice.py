@@ -406,7 +406,7 @@
 # print(fruits)
 
 
-# marks = (90, 85, 78, 90, 95, 90)
+# age = (90, 85, 78, 90, 95, 90)
 # print(marks[0])
 # print(marks[-1])
 # print(marks.count(90))
@@ -1946,3 +1946,115 @@ students={
 #     return (x+y)/2,x,y
 # result,x,y=average()
 # print("The average of",x,"and",y,"is",result)
+# 26. Return whether a number is even or odd.
+# def even_odd(x):
+#     if x%2==0:
+#         return "even"
+#     else:
+#         return "odd"
+# result=even_odd(2)
+# print(result)
+# 27. Return whether a number is positive, negative, or zero.
+# def poneze():
+#     x=int(input("enter a number:-"))
+#     if x>0:
+#         return "positive"
+#     elif x==0:
+#         return "zero"
+#     else:
+#         return "negative"
+# result=poneze()
+# print(result)
+# 28. Return the larger of two numbers.
+# def larger():
+#     x=int(input("enter a number:-"))
+#     y=int(input("enter a number:-"))
+#     if x>y:
+#         return  x
+#     else:
+#         return  y
+# result=larger()
+# print(result)
+# 29. Return the smaller of two numbers.
+# def smaller():
+#     x=int(input("enter a number:-"))
+#     y=int(input("enter a number:-"))
+#     if x<y:
+#         return  x
+#     else:
+#         return  y
+# result=smaller()
+# print(result)
+# 30. Return the largest of three numbers.
+# def largest():
+#     x=int(input("enter a number:-"))
+#     y=int(input("enter a number:-"))
+#     z=int(input("enter a number :-"))
+#     if x>=y and x>=z:
+#         return  x
+#     elif y>=x and y>=z:
+#         return y
+#     elif z>=x and z>=y:
+#         return z
+# result=largest()
+# print(result)
+# 31. Return whether a person is eligible to vote.
+# def vote():
+#     age=int(input("enter your age:-"))
+#     if age >=18:
+#         return "eligible to vote"
+#     else:
+#         return "not eligible to vote"
+# result=vote()
+# print(result)
+# 32. Return whether a student has passed or failed.
+# def result():
+#     marks=int(input("enter your marks:-"))
+#     if marks >=33:
+#         return "passed"
+#     else:
+#         return "failed"
+# result=result()
+# print(result)
+# 33. Accept marks and return the grade.
+# def grade():
+#     marks=int(input("enter a number:-"))
+#     if marks == 100:
+#         return "A+"
+#     elif marks >=80:
+#         return "A"
+#     elif marks >=50:
+#         return "B"
+#     elif marks >= 33:
+#         return "C"
+#     else:
+#         return "D"
+# result=grade()
+# print(result)
+
+# 34. Accept age and return:
+# Child
+# Teenager
+# Adult
+# Senior
+# def agre():
+#     age=int(input("enter a number:-"))
+#     if age == 50:
+#         return "Senior"
+#     elif age >=20:
+#         return "Adult"
+#     elif age >=13:
+#         return "Teenager"
+#     else:
+#         return "Child"
+# result=agre()
+# print(result)
+# 35. Accept a number and return whether it is divisible by 5.
+# def num():
+#     x=int(input("enter a number:-"))
+#     if x%5==0:
+#         return "Divisble by 5"
+#     else:
+#         return "not divisble by 5"
+# result=num()
+# print(result)
